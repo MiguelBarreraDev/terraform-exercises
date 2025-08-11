@@ -1,0 +1,21 @@
+# Archivos de estado de Terraform
+*.tfstate
+*.tfstate.backup
+
+# Carpeta interna de Terraform
+.terraform/
+
+# Archivo de bloqueo de versiones de proveedores
+.terraform.lock.hcl
+
+# Claves privadas
+*.pem
+*.key
+*.key.pub
+
+# Archivos de salida temporales
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
